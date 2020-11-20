@@ -1,5 +1,5 @@
 def run_exercise():
-    def sqr_count(number):
+    def sqrt_count(number):
         count = 0
         while number >= 2:
             number **= 0.5
@@ -7,7 +7,7 @@ def run_exercise():
         return count
 
     number = int(input("Enter a number: "))
-    print(f"{number} -> {sqr_count(number)}")
+    print(f"{number} -> {sqrt_count(number)}")
 
 
 run_exercise()
