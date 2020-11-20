@@ -1,4 +1,6 @@
-def run_exercise():
+def run_exercise_one():
+    print("Exercise 1:")
+
     def sqrt_count(number):
         count = 0
         while number >= 2:
@@ -10,4 +12,4 @@ def run_exercise():
     print(f"{number} -> {sqrt_count(number)}")
 
 
-run_exercise()
+run_exercise_one()
